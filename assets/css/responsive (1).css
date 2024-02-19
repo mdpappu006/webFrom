@@ -34,7 +34,6 @@
     
 
 
-
 }
   
 /********************************************************/
@@ -52,16 +51,50 @@
 /* xs devices **********************************/
 /********************************************************/
 @media (max-width: 767px){
+    .container{
+        display: block;
+    }
+     .form-left-section{
+        width: 100%;
+        padding: 50px 0;
+     }
+    
+     form .name{
+        padding-bottom: 28px;
+        display: flex;
+     }
+     
+     .form-left-wrapper{
+        padding-left: 3%;
+        position: relative;
+        padding: 10px;
+     }
 
 
+     h2{
+        color: #e9d4d4;
+        font-size: 30px;
+        transform: rotate(0deg);
+        position: absolute;
+        left: 50px;
+        bottom: 95%;
+      }
+     .form-right-section{
+        width: 100%;
+        background: rgb(229, 234, 232);
+        padding: 20px 0;
+        padding-left: 20px;
+    
+      }
 
 }
-   
 
 /********************************************************/
-/* Custom devices **********************************/
+/* sm devices **********************************/
 /********************************************************/
 
-@media only screen and (min-width: 376px) and (max-width: 430px){
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 
+
+    
 }
